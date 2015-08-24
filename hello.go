@@ -1,8 +1,8 @@
-package main
+package hello
 
 import "fmt"
 
-func main() {
-  fmt.Printf("Hello world!\n")
+func Greet(name string) string {
+  return fmt.Sprintf("Hello %s\n", name)
 }
 
